@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 60vw;
+}
+
+.cell {
+    align-items: center;
+    background-color: #ccc;
+    display: flex;
+    height: 20vw;
+    justify-content: center;
+    width: 20vw;
+}
+
+button {
+    height: 18vw;
+    width: 18vw;
+}
